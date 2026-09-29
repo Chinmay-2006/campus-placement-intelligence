@@ -58,17 +58,17 @@ Placement status is excluded from regression.
 ## 4. Machine Learning Architecture
 
 Student Profile
-        ↓
+↓
 Preprocessing Pipeline
-        ↓
+↓
 Stage 1 — Classification
-        ↓
+↓
 Placement Prediction
-        ↓
+↓
 If Placed
-        ↓
+↓
 Stage 2 — CTC Regression
-        ↓
+↓
 Expected Starting CTC
 
 ## 5. Features
@@ -176,8 +176,6 @@ campus-intelligence/
 
 ├── app.py
 
-├── train_models.py
-
 ├── requirements.txt
 
 ├── README.md
@@ -189,10 +187,6 @@ campus-intelligence/
 Install dependencies:
 
 pip install -r requirements.txt
-
-Train the models:
-
-python train_models.py
 
 Run the application:
 
@@ -211,3 +205,4 @@ Predictions are estimates rather than guaranteed placement or salary outcomes.
 - Chinmay Patil
 - Sanika Mhatre
 - Siddharth Parchande
+- Dhruva
