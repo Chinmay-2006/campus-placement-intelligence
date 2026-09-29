@@ -1,0 +1,176 @@
+{
+    "classification": {
+        "Logistic Regression": {
+            "accuracy": 0.57005,
+            "precision": 0.5788894240693594,
+            "recall": 0.77240176276166,
+            "f1_score": 0.6617895771878073,
+            "roc_auc": 0.584929906692788,
+            "classification_report": {
+                "Not Placed": {
+                    "precision": 0.546552039509786,
+                    "recall": 0.32806324110671936,
+                    "f1-score": 0.41001715265866207,
+                    "support": 9108.0
+                },
+                "Placed": {
+                    "precision": 0.5788894240693594,
+                    "recall": 0.77240176276166,
+                    "f1-score": 0.6617895771878073,
+                    "support": 10892.0
+                },
+                "accuracy": 0.57005,
+                "macro avg": {
+                    "precision": 0.5627207317895727,
+                    "recall": 0.5502325019341896,
+                    "f1-score": 0.5359033649232346,
+                    "support": 20000.0
+                },
+                "weighted avg": {
+                    "precision": 0.5641629791409297,
+                    "recall": 0.57005,
+                    "f1-score": 0.5471324150572345,
+                    "support": 20000.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    2988,
+                    6120
+                ],
+                [
+                    2479,
+                    8413
+                ]
+            ]
+        },
+        "Random Forest": {
+            "accuracy": 0.5582,
+            "precision": 0.5716875871687587,
+            "recall": 0.7526625045905252,
+            "f1_score": 0.6498097653772986,
+            "roc_auc": 0.5630296744287467,
+            "classification_report": {
+                "Not Placed": {
+                    "precision": 0.5240282685512367,
+                    "recall": 0.3256477821695213,
+                    "f1-score": 0.40167930660888407,
+                    "support": 9108.0
+                },
+                "Placed": {
+                    "precision": 0.5716875871687587,
+                    "recall": 0.7526625045905252,
+                    "f1-score": 0.6498097653772986,
+                    "support": 10892.0
+                },
+                "accuracy": 0.5582,
+                "macro avg": {
+                    "precision": 0.5478579278599978,
+                    "recall": 0.5391551433800232,
+                    "f1-score": 0.5257445359930913,
+                    "support": 20000.0
+                },
+                "weighted avg": {
+                    "precision": 0.5499835334703391,
+                    "recall": 0.5582,
+                    "f1-score": 0.5368111544541626,
+                    "support": 20000.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    2966,
+                    6142
+                ],
+                [
+                    2694,
+                    8198
+                ]
+            ]
+        }
+    },
+    "classification_cross_validation": {
+        "Logistic Regression": {
+            "accuracy_mean": 0.57012,
+            "accuracy_std": 0.0029813755214665783,
+            "f1_mean": 0.5360675823791305,
+            "f1_std": 0.0028589725987296236,
+            "roc_auc_mean": 0.5853545867872224,
+            "roc_auc_std": 0.003668659239188684
+        },
+        "Random Forest": {
+            "accuracy_mean": 0.5580999999999999,
+            "accuracy_std": 0.0016991174179555734,
+            "f1_mean": 0.5259405574766106,
+            "f1_std": 0.002152052172853438,
+            "roc_auc_mean": 0.5643642830111621,
+            "roc_auc_std": 0.003511273699743509
+        }
+    },
+    "regression": {
+        "Linear Regression": {
+            "mae": 0.7981362746582716,
+            "rmse": 0.999014265128093,
+            "r2": 0.6060332363090777,
+            "error_mean": 0.01752332458850005,
+            "error_std": 0.998860568360164,
+            "error_min": -3.670899600346223,
+            "error_max": 3.6228131486869852,
+            "absolute_error_mean": 0.7981362746582716,
+            "absolute_error_median": 0.6771498717920759
+        },
+        "Random Forest": {
+            "mae": 0.8165947254865956,
+            "rmse": 1.0224392238901403,
+            "r2": 0.5873411062638967,
+            "error_mean": 0.01620184080058785,
+            "error_std": 1.0223108465157478,
+            "error_min": -3.6348999999999902,
+            "error_max": 3.58950000000001,
+            "absolute_error_mean": 0.8165947254865956,
+            "absolute_error_median": 0.699975000000002
+        }
+    },
+    "regression_cross_validation": {
+        "Linear Regression": {
+            "mae_mean": 0.7965708135577277,
+            "mae_std": 0.009672852869584124,
+            "rmse_mean": 0.997178877154423,
+            "rmse_std": 0.010793667278813828,
+            "r2_mean": 0.607781529317866,
+            "r2_std": 0.009131150572850064
+        },
+        "Random Forest": {
+            "mae_mean": 0.8170344232928011,
+            "mae_std": 0.008028017702223477,
+            "rmse_mean": 1.0234724594478766,
+            "rmse_std": 0.009929916215947358,
+            "r2_mean": 0.5868353104819768,
+            "r2_std": 0.0087219839216768
+        }
+    },
+    "regression_error_statistics": {
+        "Linear Regression": {
+            "error_mean": 0.01752332458850005,
+            "error_std": 0.998860568360164,
+            "error_min": -3.670899600346223,
+            "error_max": 3.6228131486869852,
+            "absolute_error_mean": 0.7981362746582716,
+            "absolute_error_median": 0.6771498717920759
+        },
+        "Random Forest": {
+            "error_mean": 0.01620184080058785,
+            "error_std": 1.0223108465157478,
+            "error_min": -3.6348999999999902,
+            "error_max": 3.58950000000001,
+            "absolute_error_mean": 0.8165947254865956,
+            "absolute_error_median": 0.699975000000002
+        }
+    },
+    "selected_classification_model": "Logistic Regression",
+    "selected_regression_model": "Linear Regression",
+    "dataset_information": {
+        "total_records": 100000,
+        "placed_records_for_regression": 54459
+    }
+}
